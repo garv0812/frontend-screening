@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Builder</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <span class="fw-bold text-dark">COMPANY<br><small class="text-muted">business tagline</small></span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+          <li style="padding-left: 170px;" class="nav-item ms-2"><a class="btn btn-danger rounded-pill px-3" href="#">Get A Quote</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Offcanvas Menu -->
+  <div class="offcanvas offcanvas-end half-width" tabindex="-1" id="offcanvasNavbar">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title fw-bold">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+      </ul>
+      <div class="mt-3">
+        <a class="btn btn-danger w-100 rounded-pill" href="#">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-lg-start text-center mb-4 mb-lg-0">
+          <h1 class="fw-bold">Your Resume <br><span class="text-danger">Deserves A Yes</span> Let’s <br>Make It Happen</h1>
+          <p class="text-muted mt-3">If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade. Get An ATS-Optimized Resume Crafted By HR Experts To Help You Land More Interviews.</p>
+          <div class="d-flex justify-content-lg-start justify-content-center gap-3 mt-4">
+            <button class="btn btn-outline-danger rounded-pill px-4 py-2">Resume Packages</button>
+            <button class="btn btn-danger rounded-pill px-4 py-2">Contact Us</button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 position-relative text-center">
+          <img src="book girl.png" alt="Hero" class="img-fluid hero-img">
+          <div class="rating-box shadow-sm">
+            <span class="fw-bold fs-5">4.9 ⭐⭐⭐⭐⭐</span><br>
+            <small class="text-muted">Instructor Rating</small>
+          </div>
+          <div class="resume-box shadow-sm">
+            <span class="fw-bold fs-6">260+</span><br>
+            <small class="text-muted">Resumes Created</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What You Get Section -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <div class="small-box mx-auto mb-3">What You Get</div>
+      <h2 class="fw-bold mb-5">You’re Not Just <span class="text-danger">Another Applicant</span> And Your <br>Resume Shouldn’t Look Like One</h2>
+
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <img src="card1.png" class="card-img-top mx-auto" alt="Card 1">
+            <div class="card-body">
+              <h6 class="fw-bold">A Resume Format That Gets You Interviews</h6>
+              <p class="text-muted small">Get a professionally written, keyword-optimized resume that lands in recruiter inboxes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <img src="card2.png" class="card-img-top mx-auto" alt="Card 2">
+            <div class="card-body">
+              <h6 class="fw-bold">A Cover Letter Style That Stands Out Strong</h6>
+              <p class="text-muted small">Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <img src="card3.png" class="card-img-top mx-auto" alt="Card 3">
+            <div class="card-body">
+              <h6 class="fw-bold">A LinkedIn Profile That Works For You</h6>
+              <p class="text-muted small">Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <img src="card4.png" class="card-img-top mx-auto" alt="Card 4">
+            <div class="card-body">
+              <h6 class="fw-bold">An Interview Strategy That Builds Confidence</h6>
+              <p class="text-muted small">Interview preparation with real HR professionals so you speak clearly, confidently.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

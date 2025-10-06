@@ -1,0 +1,81 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar .nav-link {
+  color: #000;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #dc3545;
+}
+
+.offcanvas.half-width {
+  width: 50%;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #ffe9ed;
+  margin-top: 80px;
+}
+
+.hero-section .hero-img {
+  max-height: 400px;
+}
+
+.rating-box {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  background: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.resume-box {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  background: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.small-box {
+  display: inline-block;
+  background: #ffe9ed;
+  color: #dc3545;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.card img {
+  max-height: 120px;
+  width: auto;
+  
+}
+
+@media (max-width: 991px) {
+  .offcanvas.half-width {
+    width: 60%;
+  }
+  .hero-section {
+    text-align: center;
+  }
+  .rating-box {
+    left: 10%;
+    top: 20%;
+  }
+  .resume-box {
+    right: 10%;
+    bottom: 5%;
+  }
+}
+/* Frame 296 */
+
+
